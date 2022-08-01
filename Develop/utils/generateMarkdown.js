@@ -76,7 +76,7 @@ function generateMarkdown(data) {
   <h2 id='questions'> Questions </h2>
   Don't hesitate to reach out, you can contact:
   ${data.email}
-  or: hhtps://github.com/${data.userName} 
+  or:  github.com/${data.userName} 
   <p style='text-align: right;'><a href='#title'>Back to top</a></p>
 `);
 }
