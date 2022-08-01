@@ -25,8 +25,6 @@
 
   <h2 id='usage'> Usage </h2>
   You woulld use this to save time and make a quality README
-  ![Screenshot (5)](https://user-images.githubusercontent.com/61319384/182246483-64d80509-8375-4d61-b65b-11f40ab4b6a4.png)
-
   <p style='text-align: right;'><a href='#title'>Back to top</a></p>
 
   <h2 id='installation'> Installation </h2>
