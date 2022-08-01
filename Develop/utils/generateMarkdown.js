@@ -40,10 +40,10 @@ function generateMarkdown(data) {
   <h2 id='contents'> Table of Contents </h2>
   
   * [Description](#description)\n
-  ${renderLicenseLink(data.license)}\n
-  * [Installation](#installation)\n
   * [Usage](#usage)\n 
+  * [Installation](#installation)\n
   * [Tests](#tests)\n
+  ${renderLicenseLink(data.license)}\n
   * [Contributors](#contributors)\n
   * [Questions](#questions)
 
@@ -58,11 +58,13 @@ function generateMarkdown(data) {
   <h2 id='installation'> Installation </h2>
   Run this command to start install:
   ${data.install}
+  <p style='text-align: right;'><a href='#title'>Back to top</a></p>
+
 
   <h2 id='tests'> Tests </h2>
-    
   Use this command to run tests:
   ${data.test}
+  <p style='text-align: right;'><a href='#title'>Back to top</a></p>
 
   ${renderLicenseSection(data.license)}
   <p style='text-align: right;'><a href='#title'>Back to top</a></p>
@@ -74,7 +76,7 @@ function generateMarkdown(data) {
   <h2 id='questions'> Questions </h2>
   Don't hesitate to reach out, you can contact:
   ${data.email}
-  or: github.com/${data.userName} 
+  or: hhtps://github.com/${data.userName} 
   <p style='text-align: right;'><a href='#title'>Back to top</a></p>
 `);
 }
