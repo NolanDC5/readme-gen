@@ -34,18 +34,16 @@ const questions = [
         type: 'input',
         message: "What do you use to install this project?",
         name: 'install',
-        default: "npm i"
         },
         {
         type: 'input',
         message: "What command should be used to run this project?",
         name: 'test',
-        default: "npm run test"
         },
         {
         type: 'list',
         message: "What license will this project use:",
-        choices: ["MIT","Unlicense", "Apache 2.0", "GNU v3", "BSD 3-Clause", "Mozilla Public License 2.0"],
+        choices: ["MIT","Unlicense", "Apache 2.0", "GNU v3", "BSD 3-Clause", "None"],
         name: 'license'
         },
         {
