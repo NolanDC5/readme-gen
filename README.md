@@ -3,6 +3,9 @@
   
   ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
   
+  <h2> README gen DEMO vid </h2>
+  https://watch.screencastify.com/v/usO1GX1fIIYQPxISyYcS
+  
   <h2 id='contents'> Table of Contents </h2>
   
   * [Description](#description)
