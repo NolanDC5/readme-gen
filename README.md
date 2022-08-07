@@ -45,7 +45,7 @@
   <p style='text-align: right;'><a href='#title'>Back to top</a></p>
 
   <h2 id='contributors'> Contributors </h2>
-  undefined
+  Nolan
   <p style='text-align: right;'><a href='#title'>Back to top</a></p>
 
   <h2 id='questions'> Questions </h2>
